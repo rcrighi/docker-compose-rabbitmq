@@ -1,6 +1,6 @@
 # Docker-compose for Graylog
 
-rabbit1:
+rabbitmq:
   image: "rabbitmq:3-management"
   hostname: "rabbit1"
   environment:
